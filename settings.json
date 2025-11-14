@@ -5,62 +5,76 @@
                 "name": "firefox",
                 "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/145.0/win32/de/Firefox%20Installer.exe",
                 "setup_name": "firefox_setup.exe",
-                "install": false
+                "install": false,
+                "msi": false,
+                "compressed_folder": false
             },
-                        {
+            {
                 "name": "discord",
                 "url": "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9214/DiscordSetup.exe",
                 "setup_name": "discord_setup.exe",
-                "install": true
+                "install": true,
+                "msi": false,
+                "compressed_folder": false
             },
-                                    {
+            {
                 "name": "cursor",
-                "url": "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9214/DiscordSetup.exe",
+                "url": "https://www.rw-designer.com/cursor-downloadset/i-know-what-you-are.zip",
                 "setup_name": "cursor_set",
-                "install": false
+                "install": false,
+                "msi": false,
+                "compressed_folder": false
             },
-                                                {
+            {
                 "name": "vscode",
                 "url": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/VSCodeUserSetup-x64-1.106.0.exe",
                 "setup_name": "vscode_setup.exe",
-                "install": false
+                "install": false,
+                "msi": false,
+                "compressed_folder": false
             },
-                                                {
+            {
                 "name": "nvidia_driver",
                 "url": "https://de.download.nvidia.com/Windows/581.80/581.80-desktop-win10-win11-64bit-international-dch-whql.exe",
                 "setup_name": "nvidia_driver_setup.exe",
-                "install": false
+                "install": false,
+                "msi": false,
+                "compressed_folder": false
             },
-                                                {
+            {
                 "name": "msi_afterburner",
                 "url": "https://download-2.msi.com/uti_exe/vga/MSIAfterburnerSetup.zip?__token__=exp=1763282939~acl=/*~hmac=fa651179afa0a00b870ee8956cb2590e40273a12f6aa3607a2ea581a08d60f9d",
-                "setup_name": "msi_afterburner_setup.exe",
-                "install": false
+                "setup_name": "msi_afterburner_setup",
+                "install": true,
+                "msi": false,
+                "compressed_folder": true
             },
-                                                {
+            {
                 "name": "python",
                 "url": "https://www.python.org/ftp/python/3.14.0/python-3.14.0-amd64.exe",
                 "setup_name": "python_setup.exe",
-                "install": false
+                "install": false,
+                "msi": false,
+                "compressed_folder": false
             },
-                                                {
+            {
                 "name": "buildtools",
                 "url": "https://download.visualstudio.microsoft.com/download/pr/d3b4e0f6-4bc0-4ec0-ba9c-20b355d61cc4/03219c1d91873ee2c99d2cbd86768296d5d6fcbede3a6781d2bb5c8dce8a2cf0/vs_BuildTools.exe",
                 "setup_name": "python_setup.exe",
-                "install": false
+                "install": false,
+                "msi": false,
+                "compressed_folder": false
             },
-                                                {
+            {
                 "name": "logitech_g_hub",
                 "url": "https://download01.logi.com/web/ftp/pub/techsupport/gaming/lghub_installer.exe",
                 "setup_name": "python_setup.exe",
-                "install": true
+                "install": true,
+                "msi": false,
+                "compressed_folder": false
             }
         ],
         "installPath": ".TEMP"
-
-        
     },
-    "settings": {
-
-    }
+    "settings": {}
 }

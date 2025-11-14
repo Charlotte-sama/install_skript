@@ -23,7 +23,7 @@
                 "setup_name": "cursor_set",
                 "install": false,
                 "msi": false,
-                "compressed_folder": false
+                "compressed_folder": true
             },
             {
                 "name": "vscode",

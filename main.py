@@ -33,7 +33,7 @@ def run_as_admin():
 run_as_admin()
 
 # Config laden
-with open("config\\settings.json") as f:
+with open("settings.json") as f:
     config = json.load(f)
 
 install_path = config["variables"]["installPath"]
